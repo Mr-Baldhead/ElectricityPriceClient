@@ -1,36 +1,7 @@
-## 🧪 How to Work on the Exercises
+### Electricity Price Client Java
+The startup file is called electricityPriceClient.java
+This is a CLI-program that retrieves electricity prices from elprisetjustnu.se for the current day and the next day (if available).
+Print the mean price for the current 24-hour period and the next day if the time is after 14.00.
 
-Each exercise is described in a GitHub Issue. Follow these steps to complete an exercise and submit your solution:
-
-### 📥 1. Clone or Fork the Repository
-```bash
-git clone https://github.com/fungover/exercise2025.git
-```
-Or fork the repository via GitHub and clone your fork.
-
-### 🌱 2. Create a Branch
-Create a new branch named using the format: your-github-username/exerciseNumber
-
-Example for user githubuser working on Exercise 1:
-
-```bash
-git checkout -b githubuser/exercise1
-```
-
-### 🛠️ 3. Implement Your Solution
-Follow the instructions in the corresponding issue. If anything is unclear, ask questions by commenting directly on the issue.
-
-### 🚀 4. Push Your Branch
-```bash
-git push origin githubuser/exercise1
-```
-
-### 📬 5. Create a Pull Request
-Open a Pull Request (PR) from your branch.
-
-Link the PR to the issue you're solving.
-
-Include a clear description of your solution.
-
-### 💬 6. Feedback and Iteration
-Reviewers may leave comments or suggestions. Update your branch and push changes until the PR is approved.
+The program dentifies and print the hours with the cheapest and most expensive prices. If multiple hours share the same price, select the earliest hour.
+You can also find out which time of day is the cheapest to charge your electric car at 2, 4 or 8 hours or you can choose an analysis mode to compute charging cost from a consumption CSV which is included.
